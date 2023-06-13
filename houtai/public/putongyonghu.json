@@ -1,0 +1,111 @@
+﻿{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": [
+					"putongyonghu"
+				],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/putongyonghugrzlgl",
+			"name": "putongyonghugrzlgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "个人资料管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": [
+					"putongyonghu"
+				],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/putongyonghu_updt2/1",
+					"name": "putongyonghu_updt2",
+					"component": "putongyonghu/personal/index",
+					"meta": {
+						"title": "修改个人资料",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": [
+							"putongyonghu"
+						],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+		{
+			"path": "/timuputongyonghugl",
+			"name": "timuputongyonghugl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "题目管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": [
+					"putongyonghu"
+				],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/timuxinxi/1",
+					"name": "timuxinxi",
+					"component": "timuxinxi/index",
+					"meta": {
+						"title": "题目查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": [
+							"putongyonghu"
+						],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+		{
+			"path": "/resetPass",
+			"name": "resetPass",
+			"component": "resetPass/index",
+			"meta": {
+				"title": "message.router.resetPass",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": [
+					"putongyonghu"
+				],
+				"icon": "el-icon-s-grid"
+			}
+		}
+	]
+}

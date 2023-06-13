@@ -1,0 +1,289 @@
+﻿{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": [
+					"guanliyuan"
+				],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/xtyhgl",
+			"name": "xtyhgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "系统用户管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": [
+					"guanliyuan"
+				],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/guanliyuan/1",
+					"name": "guanliyuan",
+					"component": "guanliyuan/index",
+					"meta": {
+						"title": "管理员用户",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": [
+							"guanliyuan"
+						],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+		{
+			"path": "/xinwentongzhigl",
+			"name": "xinwentongzhigl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "资讯数据管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": [
+					"guanliyuan"
+				],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/xinwentongzhi/1",
+					"name": "xinwentongzhi",
+					"component": "xinwentongzhi/index",
+					"meta": {
+						"title": "资讯数据设置",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": [
+							"guanliyuan"
+						],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+		{
+			"path": "/putongyonghuglygl",
+			"name": "putongyonghuglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "普通用户管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": [
+					"guanliyuan"
+				],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/putongyonghu/1",
+					"name": "putongyonghu",
+					"component": "putongyonghu/index",
+					"meta": {
+						"title": "普通用户查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": [
+							"guanliyuan"
+						],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+		{
+			"path": "/timuglygl",
+			"name": "timuglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "题目管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": [
+					"guanliyuan"
+				],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/timuxinxi/1",
+					"name": "timuxinxi",
+					"component": "timuxinxi/index",
+					"meta": {
+						"title": "题目查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": [
+							"guanliyuan"
+						],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+		{
+			"path": "/liuyanbanglygl",
+			"name": "liuyanbanglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "问题讨论管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": [
+					"guanliyuan"
+				],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/liuyanban/1",
+					"name": "liuyanban",
+					"component": "liuyanban/index",
+					"meta": {
+						"title": "问题讨论查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": [
+							"guanliyuan"
+						],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+		{
+			"path": "/timuglytj",
+			"name": "timuglytj",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "题目统计",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": [
+					"guanliyuan"
+				],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/timuxinxi_tj_timubiaoqian/1",
+					"name": "timuxinxi_tj_timubiaoqian",
+					"component": "timuxinxi_tj_timubiaoqian/index",
+					"meta": {
+						"title": "按题目标签统计",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": [
+							"guanliyuan"
+						],
+						"icon": "iconfont icon-caidan"
+					}
+				},
+				{
+					"path": "/timuxinxi_tj_timuleixing/1",
+					"name": "timuxinxi_tj_timuleixing",
+					"component": "timuxinxi_tj_timuleixing/index",
+					"meta": {
+						"title": "按题目类型统计",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": [
+							"guanliyuan"
+						],
+						"icon": "iconfont icon-caidan"
+					}
+				},
+				{
+					"path": "/timuxinxi_tj_timunandu/1",
+					"name": "timuxinxi_tj_timunandu",
+					"component": "timuxinxi_tj_timunandu/index",
+					"meta": {
+						"title": "按题目难度统计",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": [
+							"guanliyuan"
+						],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+		{
+			"path": "/resetPass",
+			"name": "resetPass",
+			"component": "resetPass/index",
+			"meta": {
+				"title": "message.router.resetPass",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": [
+					"guanliyuan"
+				],
+				"icon": "el-icon-s-grid"
+			}
+		}
+	]
+}
